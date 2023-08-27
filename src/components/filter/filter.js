@@ -16,7 +16,9 @@ const Filter = (props) => {
             <div className="flex flex-wrap h-max overflow-auto">
             {
               props.tags.map((elem, i)=>(
-                <div className="flex bg-[#effafa] text-desatDarkCyan rounded-md overflow-hidden mt-2 mr-3">
+                <div 
+                key={elem}
+                className="flex bg-[#effafa] text-desatDarkCyan rounded-md overflow-hidden mt-2 mr-3">
                   <div
                   className="px-2 py-2 "
                   >{elem}</div>
