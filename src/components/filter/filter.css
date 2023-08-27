@@ -1,0 +1,12 @@
+header {
+  background-image: url(../../images/bg-header-mobile.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width:500px) {
+  header {
+    background-image: url(../../images/bg-header-desktop.svg);;
+  }
+}
